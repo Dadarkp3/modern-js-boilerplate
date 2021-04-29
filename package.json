@@ -7,7 +7,8 @@
     "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
     "build": "webpack --config build-utils/webpack.config.js --env env=prod",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "npx eslint src/*.js"
   },
   "keywords": [],
   "author": "Daiane Mascarenhas <adm.daianesilva@gmail.com>",
